@@ -60,14 +60,7 @@ class DatabaseConnection
 end" > lib/database_connection.rb && pbpaste >> lib/database_connection.rb
 
 
-####################
 
-cat spec/spec_helper.rb| pbcopy && echo "require 'database_connection'
-
-  # Make sure this connects to your test database
-  # (its name should end with '_test')
-  DatabaseConnection.connect('your_database_name_test')
-" > spec/spec_helper.rb && pbpaste >> spec/spec_helper.rb
 
 ####################
 
